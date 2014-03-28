@@ -3,6 +3,10 @@
 An Atom theme based on the Spacegray base16-ocean-dark Theme
 
 ### To Install:
-`apm install submarine`
+Search for "submarine" in Atom >> Settings >> Packages >> Search Packages
 
-![screenshot](https://dl.dropboxusercontent.com/u/8518439/github/base-16-ocean-spacegray.png)
+or 
+
+`apm install submarine` in your terminal
+
+![screenshot](http://cl.ly/image/130N292u2C1m/Screen%20Shot%202014-03-28%20at%201.34.58%20AM.png)
