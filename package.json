@@ -1,9 +1,9 @@
 {
   "name": "submarine",
   "theme": "syntax",
-  "version": "0.0.8",
+  "version": "0.1.0",
   "private": false,
-  "description": "Submarine - based on the Spacegray base16 Ocean Theme",
+  "description": "Submarine, an ocean-inspired Atom theme",
   "repository": "https://github.com/zackshapiro/submarine",
   "license": "MIT",
   "engines": {

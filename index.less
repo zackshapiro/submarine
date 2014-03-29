@@ -1,221 +1,83 @@
-.editor, .editor .gutter {
-  background-color: #2b303b;
-  color: #c0c5ce;
-}
+.editor, .editor .gutter { background-color: #2b303b; color: #c0c5ce; }
 
 .editor {
-  .indent-guide {
-    color: rgba(255, 255, 255, 0.1);
-  }
-
-  .wrap-guide {
-    background-color: rgba(255, 255, 255, 0.05);
-  }
+  .indent-guide { color: rgba(255, 255, 255, 0.1); }
+  .wrap-guide { background-color: rgba(255, 255, 255, 0.05); }
 }
 
-.editor.is-focused .cursor {
-  border-color: #c0c5ce;
-}
+.editor.is-focused .cursor { border-color: #c0c5ce; }
 
-.editor.is-focused .selection .region {
-  background-color: #4f5b66;
-}
+.editor.is-focused .selection .region { background-color: #4f5b66; }
 
-.editor.is-focused .line-number.cursor-line-no-selection, .editor.is-focused .line.cursor-line {
-  background-color: #343d46;
-}
+.editor.is-focused .line-number.cursor-line-no-selection, .editor.is-focused .line.cursor-line { background-color: #343d46; }
 
-.editor .invisible-character {
-  color: rgba(192, 197, 206, 0.3);
-}
+.editor .invisible-character { color: rgba(192, 197, 206, 0.3); }
 
-.variable.parameter.function {
-  color: #c0c5ce;
-}
+.variable.parameter.function { color: #c0c5ce; }
 
-.comment, .punctuation.definition.comment {
-  font-style: italic;
-  color: #65737e;
-}
+.comment, .punctuation.definition.comment { font-style: italic; color: #65737e; }
 
-.punctuation.definition.string, .punctuation.definition.variable, .punctuation.definition.string, .punctuation.definition.parameters, .punctuation.definition.string, .punctuation.definition.array {
-  color: #c0c5ce;
-}
+.punctuation.definition.string, .punctuation.definition.variable, .punctuation.definition.string, .punctuation.definition.parameters, .punctuation.definition.string, .punctuation.definition.array { color: #c0c5ce; }
 
-.none {
-  color: #c0c5ce;
-}
+.none { color: #c0c5ce; }
 
-.keyword.operator {
-  color: #c0c5ce;
-}
+.keyword.operator { color: #c0c5ce; }
+.keyword { color: #b48ead; }
 
-.keyword {
-  color: #b48ead;
-}
+.variable { color: #8599ac; }
 
-.variable {
-  color: #8599ac;
-}
+.entity.name.function, .meta.require, .support.function.any-method { color: #8fa1b3; }
 
-.entity.name.function, .meta.require, .support.function.any-method {
-  color: #8fa1b3;
-}
+.support.class, .entity.name.class, .entity.name.type.class { color: #ebcb8b; }
 
-.support.class, .entity.name.class, .entity.name.type.class {
-  color: #ebcb8b;
-}
+.meta.class { color: #eff1f5; } .keyword.other.special-method { color: #8fa1b3; } .storage { color: #b48ead; }
 
-.meta.class {
-  color: #eff1f5;
-}
+.support.function { color: #F87444; }
 
-.keyword.other.special-method {
-  color: #8fa1b3;
-}
+.string, .constant.other.symbol, .entity.other.inherited-class { color: #20aeca; }
 
-.storage {
-  color: #b48ead;
-}
+.constant.numeric { color: #00c272; }
+.none { color: #00c272; }
+.constant { color: #00c272; }
 
-.support.function {
-  color: #F87444;
-}
+.entity.name.tag { color: #8599ac; }
+.entity.other.attribute-name { color: #00c272; }
+.entity.other.attribute-name.id, .punctuation.definition.entity { color: #8fa1b3; }
 
-.string, .constant.other.symbol, .entity.other.inherited-class {
-  color: #20aeca;
-}
+.markup.heading .punctuation.definition.heading, .entity.name.section { color: #8fa1b3; }
 
-.constant.numeric {
-  color: #00c272;
-}
+.keyword.other.unit { color: #00c272; }
 
-.none {
-  color: #00c272;
-}
+.markup.bold, .punctuation.definition.bold { font-weight: bold; color: #ebcb8b; }
+.markup.italic, .punctuation.definition.italic { font-style: italic; color: #b48ead; }
 
-.none {
-  color: #00c272;
-}
+.string.other.link { color: #8599ac; }
 
-.constant {
-  color: #00c272;
-}
+.meta.link { color: #00c272; }
+.meta.separator { color: #c0c5ce; background-color: #4f5b66; }
+.meta.selector { color: #b48ead; }
 
-.entity.name.tag {
-  color: #8599ac;
-}
+.markup.list { color: #8599ac; }
+.markup.quote { color: #00c272; }
+.markup.raw.inline { color: #20aeca; }
+.markup.inserted, .markup.inserted.git_gutter { color: #20aeca; }
+.markup.deleted, .markup.deleted.git_gutter { color: #8599ac; }
+.markup.changed, .markup.changed.git_gutter { color: #b48ead; }
+.markup.ignored, .markup.ignored.git_gutter { color: #4f5b66; }
+.markup.untracked, .markup.untracked.git_gutter { color: #4f5b66; }
 
-.entity.other.attribute-name {
-  color: #00c272;
-}
+.constant.other.color { color: #96b5b4; }
 
-.entity.other.attribute-name.id, .punctuation.definition.entity {
-  color: #8fa1b3;
-}
+.string.regexp { color: #96b5b4; }
 
-.meta.selector {
-  color: #b48ead;
-}
+.constant.character.escape { color: #96b5b4; }
 
-.none {
-  color: #00c272;
-}
+.punctuation.section.embedded, .variable.interpolation { color: #00c272; }
 
-.markup.heading .punctuation.definition.heading, .entity.name.section {
-  color: #8fa1b3;
-}
+.invalid.illegal { color: #2b303b; background-color: #8599ac; }
 
-.keyword.other.unit {
-  color: #00c272;
-}
-
-.markup.bold, .punctuation.definition.bold {
-  font-weight: bold;
-  color: #ebcb8b;
-}
-
-.markup.italic, .punctuation.definition.italic {
-  font-style: italic;
-  color: #b48ead;
-}
-
-.markup.raw.inline {
-  color: #20aeca;
-}
-
-.string.other.link {
-  color: #8599ac;
-}
-
-.meta.link {
-  color: #00c272;
-}
-
-.markup.list {
-  color: #8599ac;
-}
-
-.markup.quote {
-  color: #00c272;
-}
-
-.meta.separator {
-  color: #c0c5ce;
-  background-color: #4f5b66;
-}
-
-.markup.inserted, .markup.inserted.git_gutter {
-  color: #20aeca;
-}
-
-.markup.deleted, .markup.deleted.git_gutter {
-  color: #8599ac;
-}
-
-.markup.changed, .markup.changed.git_gutter {
-  color: #b48ead;
-}
-
-.markup.ignored, .markup.ignored.git_gutter {
-  color: #4f5b66;
-}
-
-.markup.untracked, .markup.untracked.git_gutter {
-  color: #4f5b66;
-}
-
-.constant.other.color {
-  color: #96b5b4;
-}
-
-.string.regexp {
-  color: #96b5b4;
-}
-
-.constant.character.escape {
-  color: #96b5b4;
-}
-
-.punctuation.section.embedded, .variable.interpolation {
-  color: #00c272;
-}
-
-.invalid.illegal {
-  color: #2b303b;
-  background-color: #8599ac;
-}
 .tree-view-resizer, .editor {
-  ::-webkit-scrollbar {
-    width: 1em;
-    height: 1em;
-  }
-
-  ::-webkit-scrollbar-track {
-    background-color: #2B303B;
-  }
-
-  ::-webkit-scrollbar-thumb {
-    background-color: #232830;
-  }
+  ::-webkit-scrollbar { width: 1em; height: 1em; }
+  ::-webkit-scrollbar-track { background-color: #2B303B; }
+  ::-webkit-scrollbar-thumb { background-color: #232830; }
 }
