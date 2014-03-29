@@ -9,6 +9,6 @@ or
 
 `apm install submarine` in your terminal
 
-![screenshot](http://cl.ly/image/130N292u2C1m/Screen%20Shot%202014-03-28%20at%201.34.58%20AM.png)
+![screenshot](http://cl.ly/image/0i1A180i0o2V/Screen%20Shot%202014-03-28%20at%208.40.01%20PM.png)
 
 ![screenshot](http://media.giphy.com/media/FWWTjQhQeBQMo/giphy.gif)
