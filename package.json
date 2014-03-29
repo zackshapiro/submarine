@@ -1,7 +1,7 @@
 {
   "name": "submarine",
   "theme": "syntax",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "private": false,
   "description": "Submarine - based on the Spacegray base16 Ocean Theme",
   "repository": "https://github.com/zackshapiro/submarine",
